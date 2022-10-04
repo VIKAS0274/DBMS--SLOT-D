@@ -1,0 +1,102 @@
+mysql> create database student;
+Query OK, 1 row affected (0.04 sec)
+
+mysql> use student;
+Database changed
+mysql> create table stu(Rollno int(10),Name varchar(20),Dept varchar(4),Gender varchar(1),DOB DATE,city varchar(20));
+Query OK, 0 rows affected, 1 warning (0.10 sec)
+
+mysql> desc stu;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| Rollno | int         | YES  |     | NULL    |       |
+| Name   | varchar(20) | YES  |     | NULL    |       |
+| Dept   | varchar(4)  | YES  |     | NULL    |       |
+| Gender | varchar(1)  | YES  |     | NULL    |       |
+| DOB    | date        | YES  |     | NULL    |       |
+| city   | varchar(20) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> create database faculty;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use faculty;
+Database changed
+mysql> create table fal(Faculty_id VARCHAR(4),Fac_Name varchar(15), gender char(1), DOB date, DOJ date, Mobile_no int(10));
+Query OK, 0 rows affected, 1 warning (0.07 sec)
+
+mysql> desc fal
+    -> ;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| Faculty_id | varchar(4)  | YES  |     | NULL    |       |
+| Fac_Name   | varchar(15) | YES  |     | NULL    |       |
+| gender     | char(1)     | YES  |     | NULL    |       |
+| DOB        | date        | YES  |     | NULL    |       |
+| DOJ        | date        | YES  |     | NULL    |       |
+| Mobile_no  | int         | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+mysql> create database department;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use  department;
+Database changed
+mysql> create table dept(Dept_No VARCHAR(4),Dept_Name VARCHAR(15),Dept_Head VARCHAR(4));
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> desc dept;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| Dept_No   | varchar(4)  | YES  |     | NULL    |       |
+| Dept_Name | varchar(15) | YES  |     | NULL    |       |
+| Dept_Head | varchar(4)  | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> create database course;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> use course;
+Database changed
+mysql> create table cour(course_no varchar(3), course_desc varchar(14), course_type char(1),sem_no char(1),hall_no varchar(4),fal_no varchar(4));
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> desc cour;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| course_no   | varchar(3)  | YES  |     | NULL    |       |
+| course_desc | varchar(14) | YES  |     | NULL    |       |
+| course_type | char(1)     | YES  |     | NULL    |       |
+| sem_no      | char(1)     | YES  |     | NULL    |       |
+| hall_no     | varchar(4)  | YES  |     | NULL    |       |
+| fal_no      | varchar(4)  | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+
+mysql> alter table fal add dept varchar(4);
+Query OK, 0 rows affected (0.07 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc faculty;
+ERROR 1146 (42S02): Table 'faculty.faculty' doesn't exist
+mysql> desc fal;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| Faculty_id | varchar(4)  | YES  |     | NULL    |       |
+| Fac_Name   | varchar(15) | YES  |     | NULL    |       |
+| gender     | char(1)     | YES  |     | NULL    |       |
+| DOB        | date        | YES  |     | NULL    |       |
+| DOJ        | date        | YES  |     | NULL    |       |
+| Mobile_no  | int         | YES  |     | NULL    |       |
+| dept       | varchar(4)  | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+7 rows in set (0.04 sec)
