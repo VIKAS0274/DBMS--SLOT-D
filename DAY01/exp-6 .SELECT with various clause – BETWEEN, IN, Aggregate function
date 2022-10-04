@@ -1,0 +1,228 @@
+mysql> select*from cour;
++-----------+--------------+--------+---------+--------+-------------+
+| course_no | course_desc  | sem_no | hall_no | fal_no | course_type |
++-----------+--------------+--------+---------+--------+-------------+
+| 01        | COMPUTER_SCI | 1      | 004     | 2001   | program     |
+| 02        | AI           | 3      | NULL    | 2002   | program     |
+| 03        | ENGLISH      | 1      | NULL    | 2005   | statis      |
+| 04        | ETHICS       | 2      | NULL    | 2004   | statis      |
+| 05        | DATA_STRUCT  | 6      | 044     | 2003   | program     |
++-----------+--------------+--------+---------+--------+-------------+
+5 rows in set (0.03 sec)
+
+mysql> use course;
+Database changed 
+
+mysql> SELECT * FROM COUR WHERE COURSE_TYPE IN ('Program');
++-----------+--------------+--------+---------+--------+-------------+
+| course_no | course_desc  | sem_no | hall_no | fal_no | course_type |
++-----------+--------------+--------+---------+--------+-------------+
+| 01        | COMPUTER_SCI | 1      | 004     | 2001   | program     |
+| 02        | AI           | 3      | NULL    | 2002   | program     |
+| 05        | DATA_STRUCT  | 6      | 044     | 2003   | program     |
++-----------+--------------+--------+---------+--------+-------------+
+3 rows in set (0.03 sec)
+
+mysql> SELECT * FROM COUR WHERE COURSE_TYPE IN ('statis');
++-----------+-------------+--------+---------+--------+-------------+
+| course_no | course_desc | sem_no | hall_no | fal_no | course_type |
++-----------+-------------+--------+---------+--------+-------------+
+| 03        | ENGLISH     | 1      | NULL    | 2005   | statis      |
+| 04        | ETHICS      | 2      | NULL    | 2004   | statis      |
++-----------+-------------+--------+---------+--------+-------------+
+2 rows in set (0.00 sec)
+
+
+2.
+
+mysql> use student;
+Database changed
+
+mysql> select* from regi;
++-----------+-------------+-------+
+| course_no | register_no | marks |
++-----------+-------------+-------+
+| C001      |   192011273 |    80 |
+| C001      |   192011001 |    25 |
+| C001      |   192011067 |    35 |
+| C002      |   192011274 |    75 |
+| C003      |   192011090 |    67 |
++-----------+-------------+-------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT COURSE_NO FROM regi WHERE MARKS BETWEEN 50 AND 80;
++-----------+
+| COURSE_NO |
++-----------+
+| C001      |
+| C002      |
+| C003      |
++-----------+
+3 rows in set (0.00 sec)
+
+
+
+
+1.
+mysql> select* from regi;
++-----------+-------------+-------+--------+
+| course_no | register_no | marks | sem_no |
++-----------+-------------+-------+--------+
+| C001      |   192011273 |    80 |      4 |
+| C001      |   192011001 |    25 |      1 |
+| C001      |   192011067 |    35 |      2 |
+| C002      |   192011274 |    75 |      3 |
+| C003      |   192011090 |    67 |      5 |
+| c002      |   192011095 |    57 |      3 |
+| c002      |   192011099 |    89 |      9 |
+| c002      |   192011092 |    78 |      7 |
+| c021      |   192011091 |    68 |      1 |
+| c021      |   192011536 |    79 |      5 |
+| c021      |   192011976 |    46 |      5 |
++-----------+-------------+-------+--------+
+11 rows in set (0.00 sec)
+
+mysql> SELECT COURSE_NO, AVG(MARKS) FROM regi WHERE COURSE_NO = 'C002';
++-----------+------------+
+| COURSE_NO | AVG(MARKS) |
++-----------+------------+
+| C002      |    74.7500 |
++-----------+------------+
+1 row in set (0.04 sec)
+
+
+2.
+mysql> select* from regi;
++-----------+-------------+-------+--------+
+| course_no | register_no | marks | sem_no |
++-----------+-------------+-------+--------+
+| C001      |   192011273 |    80 |      4 |
+| C001      |   192011001 |    25 |      1 |
+| C001      |   192011067 |    35 |      2 |
+| C002      |   192011274 |    75 |      3 |
+| C003      |   192011090 |    67 |      5 |
+| c002      |   192011095 |    57 |      3 |
+| c002      |   192011099 |    89 |      9 |
+| c002      |   192011092 |    78 |      7 |
+| c021      |   192011091 |    68 |      1 |
+| c021      |   192011536 |    79 |      5 |
+| c021      |   192011976 |    46 |      5 |
++-----------+-------------+-------+--------+
+11 rows in set (0.00 sec)
+
+mysql> SELECT COURSE_NO, MIN(MARKS), MAX(MARKS) FROM regi  WHERE COURSE_NO = 'C021';
++-----------+------------+------------+
+| COURSE_NO | MIN(MARKS) | MAX(MARKS) |
++-----------+------------+------------+
+| c021      |         46 |         79 |
++-----------+------------+------------+
+1 row in set (0.00 sec)
+
+
+3.
+mysql> select* from regi;
++-----------+-------------+-------+--------+
+| course_no | register_no | marks | sem_no |
++-----------+-------------+-------+--------+
+| C001      |   192011273 |    80 |      4 |
+| C001      |   192011001 |    25 |      1 |
+| C001      |   192011067 |    35 |      2 |
+| C002      |   192011274 |    75 |      3 |
+| C003      |   192011090 |    67 |      5 |
+| c002      |   192011095 |    57 |      3 |
+| c002      |   192011099 |    89 |      9 |
+| c002      |   192011092 |    78 |      7 |
+| c021      |   192011091 |    68 |      1 |
+| c021      |   192011536 |    79 |      5 |
+| c021      |   192011976 |    46 |      5 |
++-----------+-------------+-------+--------+
+11 rows in set (0.00 sec)
+
+mysql> SELECT COURSE_NO, MIN(MARKS), MAX(MARKS), AVG(MARKS) FROM regi WHERE SEM_NO = '5';
++-----------+------------+------------+------------+
+| COURSE_NO | MIN(MARKS) | MAX(MARKS) | AVG(MARKS) |
++-----------+------------+------------+------------+
+| C003      |         46 |         79 |    64.0000 |
++-----------+------------+------------+------------+
+1 row in set (0.00 sec)
+
+
+4.
+mysql> SELECT COURSE_NO,AVG(MARKS) FROM regi WHERE COURSE_NO = 'c001';
++-----------+------------+
+| COURSE_NO | AVG(MARKS) |
++-----------+------------+
+| C001      |    46.6667 |
++-----------+------------+
+1 row in set (0.00 sec)
+
+
+mysql> SELECT COURSE_NO,AVG(MARKS) FROM regi WHERE COURSE_NO = 'c002';
++-----------+------------+
+| COURSE_NO | AVG(MARKS) |
++-----------+------------+
+| C002      |    74.7500 |
++-----------+------------+
+1 row in set (0.00 sec)
+
+
+mysql> SELECT COURSE_NO,AVG(MARKS) FROM regi WHERE COURSE_NO = 'c003';
++-----------+------------+
+| COURSE_NO | AVG(MARKS) |
++-----------+------------+
+| C003      |    67.0000 |
++-----------+------------+
+1 row in set (0.00 sec)
+
+
+
+5.
+
+mysql> SELECT SUM(MARKS) FROM regi;
++------------+
+| SUM(MARKS) |
++------------+
+|        699 |
++------------+
+1 row in set (0.04 sec)
+
+
+
+6.
+
+
+mysql> SELECT COURSE_NO, COUNT(COURSE_NO) FROM REGI WHERE COURSE_NO = 'C001';
++-----------+------------------+
+| COURSE_NO | COUNT(COURSE_NO) |
++-----------+------------------+
+| C001      |                3 |
++-----------+------------------+
+1 row in set (0.04 sec)
+
+mysql> SELECT COURSE_NO, COUNT(COURSE_NO) FROM REGI WHERE COURSE_NO = 'C002';
++-----------+------------------+
+| COURSE_NO | COUNT(COURSE_NO) |
++-----------+------------------+
+| C002      |                4 |
++-----------+------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT COURSE_NO, COUNT(COURSE_NO) FROM REGI WHERE COURSE_NO = 'C003';
++-----------+------------------+
+| COURSE_NO | COUNT(COURSE_NO) |
++-----------+------------------+
+| C003      |                1 |
++-----------+------------------+
+1 row in set (0.00 sec)
+
+
+7.
+
+
+mysql> SELECT COUNT(COURSE_NO) FROM REGI;
++------------------+
+| COUNT(COURSE_NO) |
++------------------+
+|               11 |
++------------------+
+1 row in set (0.00 sec)
