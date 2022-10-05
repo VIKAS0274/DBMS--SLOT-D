@@ -39,7 +39,7 @@
 ## EXPERIMENT - 01 
 
 ### DDL Commands 
-### FILE LINK : https://github.com/VIKAS0274/DBMS--Slot-D/blob/main/Day%20-01%20lab/EXP%20-1%20%20DDL%20Commands
+### FILE LINK : https://github.com/VIKAS0274/DBMS--Slot-D/blob/main/Day%20-01%20lab/EXP%20-1%20%20DDL%20Commands/DDL Commands – CREATE, ALTER, DROP
 #### OUTPUT:
 
 1.<br/>
