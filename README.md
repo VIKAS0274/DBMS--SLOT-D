@@ -14,11 +14,11 @@
 |5.		|[SELECT with various clause – WHERE, pattern matching ](#exp5)<br/>	|03-10-2022		|
 |6		|[SELECT with various clause – BETWEEN, IN, Aggregate Function ](#exp6)<br/>	|03-10-2022		|
 |7.		|[SELECT with various clause – GROUP BY, HAVING, ORDER BY ](#exp7)<br/>	|04-10-2022			|
-|8.		|[SubQuery & Correlated Query ](#exp8)<br/>	|       	|
-|9.		|[Joins – EquiJoin, InnerJoin, OuterJoin](#exp9)<br/>	|  	|
-|10.		|[VIEW, INDEX, SEQUENCE ](#exp10)<br/>	|  	|
-|11.		|[Simple programming  exercises using CASE, IF, ITERATE, LEAVE, LOOP ](#exp11)<br/>	| 		|
-|12.		|[Simple programming  exercises using REPEAT, WHILE](#exp12)<br/>	|      |
+|8.		|[SubQuery & Correlated Query ](#exp8)<br/>	|  04-10-2022	     	|
+|9.		|[Joins – EquiJoin, InnerJoin, OuterJoin](#exp9)<br/>	| 04-10-2022	 	|
+|10.		|[VIEW, INDEX, SEQUENCE ](#exp10)<br/>	|  04-10-2022		|
+|11.		|[Simple programming  exercises using CASE, IF, ITERATE, LEAVE, LOOP ](#exp11)<br/>	| 04-10-2022			|
+|12.		|[Simple programming  exercises using REPEAT, WHILE](#exp12)<br/>	|  04-10-2022	    |
 |13.		|[TCL Commands – COMMIT, ROLLBACK, SAVEPOINT ](#exp13)<br/>	|  		|
 |14.		|[DCL Commands – GRANT, REVOKE ](#exp14)<br/>	|    		|
 |15.		|[High Level Programming Extensions-Procedures ](#exp15)<br/>	|   	|
