@@ -142,4 +142,65 @@
 <img width="555" alt="18" src="https://user-images.githubusercontent.com/113232410/193894000-a8be578b-cd30-411f-8fe6-41451df31ab6.png"><br/>
 
 
+ ## EXPERIMENT - 07
+  ### clause
+  ### FILE LINK :
+  #### OUTPUT :
+  
+  1.<img width="641" alt="21(7)" src="https://user-images.githubusercontent.com/113232410/194119729-0d88d7dd-ff8c-488e-8106-a705f1a71596.png">
+  2.<img width="655" alt="22" src="https://user-images.githubusercontent.com/113232410/194119652-32687d5a-f6e8-4bdb-9c15-b4ad67489ebc.png">
+  3.<img width="644" alt="23" src="https://user-images.githubusercontent.com/113232410/194119943-015fd131-02d2-4a48-b87f-d5ac5095596d.png">
+  4.<img width="660" alt="24" src="https://user-images.githubusercontent.com/113232410/194119913-56b614f3-48eb-482d-bec7-42369de16778.png">
+  
+   ## EXPERIMENT - 08
+  ### Query 
+  ### FILE LINK :
+  #### OUTPUT :
+  
+  1.<img width="357" alt="25(8)" src="https://user-images.githubusercontent.com/113232410/194120221-b16e29d2-bddf-40c3-806c-313c0b5b7c9b.png">
+  2.<img width="356" alt="26" src="https://user-images.githubusercontent.com/113232410/194120334-2eb86ec8-7f9d-4324-9b60-9fa347d757b7.png">
+  3.<img width="346" alt="27" src="https://user-images.githubusercontent.com/113232410/194120410-0ba4b5c0-f6d1-4df7-9e62-2f97e66a906e.png">
+  4.<img width="353" alt="28" src="https://user-images.githubusercontent.com/113232410/194120468-18477a42-2a92-4ee7-b5a6-47d64072b660.png">
+
+  
+ ## EXPERIMENT - 09
+  ### Joins 
+  ### FILE LINK :
+  #### OUTPUT :
+  
+  
+  1.<img width="457" alt="29(9)" src="https://user-images.githubusercontent.com/113232410/194120693-3f24b7c0-7e89-4046-bd81-3a3b3245498c.png">
+  2.<img width="454" alt="30" src="https://user-images.githubusercontent.com/113232410/194120778-2da19834-8fd3-407b-9ec4-df422044c16a.png">
+3.<img width="443" alt="31" src="https://user-images.githubusercontent.com/113232410/194120826-f923715d-a3f6-4780-8f3f-62ee042ffe19.png">
+
+
+
+## EXPERIMENT - 10
+  ### VIEW, INDEX, SEQUENCE  
+  ### FILE LINK :
+  #### OUTPUT :
+  
+  
+  1.<img width="350" alt="32(10)" src="https://user-images.githubusercontent.com/113232410/194121026-46d37a92-9915-4a79-a8c3-011f33bffcb5.png">
+
+
+
+## EXPERIMENT - 11
+  ### LOOP 
+  ### FILE LINK :
+  #### OUTPUT 
+  
+  1.<img width="437" alt="33(11);" src="https://user-images.githubusercontent.com/113232410/194121377-bac71893-cb69-44bd-962d-8faaeb61e6b8.png">
+2.<img width="408" alt="34" src="https://user-images.githubusercontent.com/113232410/194121438-23c2fce3-aabd-4b05-b6a4-71c79f15a890.png">
+
+
+
+
+## EXPERIMENT - 12
+  ### WHILE
+  ### FILE LINK :
+  #### OUTPUT 
+  
+  1.<img width="503" alt="35(12)" src="https://user-images.githubusercontent.com/113232410/194121568-307416a4-62a6-4e47-98b2-d1aec9b8dc60.png">
+2.<img width="466" alt="36" src="https://user-images.githubusercontent.com/113232410/194121613-88b18eee-a701-4b0e-b067-4549241a3108.png">
 
