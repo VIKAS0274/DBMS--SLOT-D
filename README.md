@@ -8,12 +8,12 @@
 
 |Exp.No 		|Expermiment Link  	|Date 	|
 |:---:|:---|:---:|
-|1.		|[DDL Commands – CREATE, ALTER, DROP ](#exp1)	|03-10-2022	|
+|1.		|[DDL Commands – CREATE, ALTER, DROP ](#EXP-1)	|03-10-2022	|
 |2.		|[DDL Commands with Constraints – PRIMARY, FOREIGN KEY, UNIQUE, CHECK ](#exp2)<br/>	|03-10-2022		|
 |3 & 4.		|[DML Commands – INSERT, SELECT, UPDATE, DELETE ](#exp3)<br/>	|03-10-2022		|
 |5.		|[SELECT with various clause – WHERE, pattern matching ](#exp5)<br/>	|03-10-2022		|
 |6		|[SELECT with various clause – BETWEEN, IN, Aggregate Function ](#exp6)<br/>	|03-10-2022		|
-|7.		|[SELECT with various clause – GROUP BY, HAVING, ORDER BY ](#exp7)<br/>	|07-10-2022			|
+|7.		|[SELECT with various clause – GROUP BY, HAVING, ORDER BY ](#exp7)<br/>	|04-10-2022			|
 |8.		|[SubQuery & Correlated Query ](#exp8)<br/>	|       	|
 |9.		|[Joins – EquiJoin, InnerJoin, OuterJoin](#exp9)<br/>	|  	|
 |10.		|[VIEW, INDEX, SEQUENCE ](#exp10)<br/>	|  	|
@@ -39,7 +39,7 @@
 ## EXPERIMENT - 01 
 
 ### DDL Commands 
-### FILE LINK : https://github.com/VIKAS0274/DBMS--Slot-D/blob/main/Day%20-01%20lab/EXP%20-1%20%20DDL%20Commands/DDL Commands – CREATE, ALTER, DROP
+### FILE LINK :[ https://github.com/VIKAS0274/DBMS--Slot-D/blob/main/Day%20-01%20lab/EXP%20-1%20%20DDL%20Commands/DDL Commands – CREATE, ALTER, DROP](https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY01/EXP-1.%20DDL%20Commands%20%E2%80%93%20CREATE%2C%20ALTER%2C%20DROP)
 #### OUTPUT:
 
 1.<br/>
