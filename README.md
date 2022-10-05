@@ -8,7 +8,7 @@
 
 |Exp.No 		|Expermiment Link  	|Date 	|
 |:---:|:---|:---:|
-|1.		|[DDL Commands – CREATE, ALTER, DROP ](#exp1)	|03-10-2022		|
+|1.		|[DDL Commands – CREATE, ALTER, DROP ](#exp1)	|03-10-2022	|
 |2.		|[DDL Commands with Constraints – PRIMARY, FOREIGN KEY, UNIQUE, CHECK ](#exp2)<br/>	|03-10-2022		|
 |3 & 4.		|[DML Commands – INSERT, SELECT, UPDATE, DELETE ](#exp3)<br/>	|03-10-2022		|
 |5.		|[SELECT with various clause – WHERE, pattern matching ](#exp5)<br/>	|03-10-2022		|
