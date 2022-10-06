@@ -70,6 +70,8 @@
 ![exp2](https://user-images.githubusercontent.com/113232410/193885861-82a0e09b-d59d-43e9-9a7f-48cef531f36c.png)<br/>
 
   
+    
+    <h2 id = "exp3"> 
   ## EXPERIMENT - 03 & 04
   ### DML Commands 
   ### FILE LINK :
@@ -93,7 +95,7 @@
 ![exp3](https://user-images.githubusercontent.com/113232410/193889211-fa389290-3cb6-4d3a-ae07-cf0e2c9d9985.png)<br/>
 
 
-
+<h2 id = "exp5"> 
 ## EXPERIMENT - 05
 ### SELECT with various clause
 ### FILE NAME :
@@ -120,7 +122,7 @@
 [exp5]<img width="362" alt="11" src="https://user-images.githubusercontent.com/113232410/193891204-a0ddbd23-11ed-4065-98d6-76183805802c.png"><br/>
 
 
-
+<h2 id = "exp6"> 
 ## EXPERIMENT - 06
 ### SELECT with various clause
 ### FILE NAME :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY01/exp-6%20.BETWEEN%2C%20IN%2C
@@ -144,6 +146,8 @@
 [exp6]<img width="555" alt="18" src="https://user-images.githubusercontent.com/113232410/193894000-a8be578b-cd30-411f-8fe6-41451df31ab6.png"><br/>
 
 
+  
+  <h2 id = "exp7"> 
  ## EXPERIMENT - 07
   ### clause
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/EXP-7_Query
@@ -158,6 +162,8 @@
   4.<br/>
   <img width="660" alt="24" src="https://user-images.githubusercontent.com/113232410/194119913-56b614f3-48eb-482d-bec7-42369de16778.png"><br/>
   
+    
+    <h2 id = "exp8"> 
    ## EXPERIMENT - 08
   ### Query 
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-8_query
@@ -173,6 +179,8 @@
   <img width="353" alt="28" src="https://user-images.githubusercontent.com/113232410/194120468-18477a42-2a92-4ee7-b5a6-47d64072b660.png"><br/>
 
   
+      
+      <h2 id = "exp9"> 
  ## EXPERIMENT - 09
   ### Joins 
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-9_joins
@@ -187,6 +195,8 @@
 <img width="443" alt="31" src="https://user-images.githubusercontent.com/113232410/194120826-f923715d-a3f6-4780-8f3f-62ee042ffe19.png"><br/>
 
 
+        
+        <h2 id = "exp10"> 
 
 ## EXPERIMENT - 10
   ### VIEW, INDEX, SEQUENCE  
@@ -199,6 +209,7 @@
 
 
 
+   <h2 id = "exp11"> 
 ## EXPERIMENT - 11
   ### LOOP 
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-11_while
@@ -211,7 +222,7 @@
 
 
 
-
+<h2 id = "exp12"> 
 ## EXPERIMENT - 12
   ### WHILE
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-12_loop
@@ -224,6 +235,8 @@
 
 
 
+  
+  <h2 id = "exp13"> 
 ## EXPERIMENT - 13
   ### TCL
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-13_TCL
@@ -238,6 +251,8 @@
 <img width="422" alt="39" src="https://user-images.githubusercontent.com/113232410/194229811-2dbb9fbd-98af-496e-91ce-52253c4306a7.png"><br/>
 
 
+    
+    <h2 id = "exp14"> 
 ## EXPERIMENT - 14
   ### DCL
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/exp-14_dcl
@@ -247,6 +262,8 @@
   <img width="307" alt="40(14)" src="https://user-images.githubusercontent.com/113232410/194229897-81353e6a-896f-410e-97d9-f0a834cdb8aa.png"><br/>
 
 
+      
+      <h2 id = "exp15"> 
 ## EXPERIMENT - 15
   ### PROCEDURE
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-15_procedure
@@ -259,6 +276,7 @@
 
 
 
+        <h2 id = "exp16"> 
 ## EXPERIMENT - 16
   ### FUNCTION
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-16_function
@@ -273,6 +291,8 @@
 
   
   
+          
+          <h2 id = "exp17"> 
   ## EXPERIMENT - 17
   ### CURSORS
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-17_CURSORS.sql
@@ -282,7 +302,7 @@
   <img width="374" alt="45(17)" src="https://user-images.githubusercontent.com/113232410/194230411-df223ab7-d6dd-4992-9240-bd43be7a686e.png"><br/>
 
   
-  
+  <h2 id = "exp18"> 
    ## EXPERIMENT - 18
   ### TRIGGER
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
@@ -291,3 +311,27 @@
   1.<br/>
   <img width="469" alt="46" src="https://user-images.githubusercontent.com/113232410/194248887-083f4d4d-e54d-4458-8043-82e8ec2940c0.png"><br/>
 
+    
+    <h2 id = "exp19"> 
+       ## EXPERIMENT - 19
+  ### DATABASE CONNECTIVITY using PHP and MYSQL 
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
+  #### OUTPUT
+      1.<br/>
+      ![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194362002-348b75a4-6db1-4623-bcd2-9acbc95c36b9.png) <br/>
+
+      2.<br/>
+      <img width="796" alt="48(19)" src="https://user-images.githubusercontent.com/113232410/194362051-226d8d56-e494-4b74-8059-7be49dcd1a0b.png"><br/>
+
+      
+
+ <h2 id = "exp20"> 
+       ## EXPERIMENT - 20
+  ### JAVA DATABASE CONNECTIVITY 
+  ### FILE LINK :
+  #### OUTPUT
+   
+   1.<br/>
+   ![Screenshot (1)](https://user-images.githubusercontent.com/113232410/194362462-4dab8180-5e72-4090-87bf-d6fee5829fa6.png)<br/>
+   2.<br/>
+   <img width="427" alt="47(18)" src="https://user-images.githubusercontent.com/113232410/194362751-3cc274b7-621d-4123-8710-9914d0677fab.png"><br/>
