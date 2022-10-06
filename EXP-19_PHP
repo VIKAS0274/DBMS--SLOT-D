@@ -1,0 +1,46 @@
+<?php
+$servername = "127.0.0.1";
+$username = "root";
+$password = "Gani@123";
+$dbname = "php";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// sql to create table
+$sql = "CREATE TABLE MyGuests (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+email VARCHAR(50),
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Table MyGuests created successfully";
+} else {
+  echo "Error creating table: " . $conn->error;
+}
+
+$conn->close();
+?>
+
+
+
+
+
+mysql> create database php;
+Query OK, 1 row affected (0.02 sec)
+mysql> use php;
+Database changed
+mysql> show tables;
++---------------+
+| Tables_in_php |
++---------------+
+| myguests      |
++---------------+
+1 row in set (0.00 sec)
