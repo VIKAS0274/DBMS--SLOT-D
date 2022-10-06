@@ -1,0 +1,90 @@
+mysql> use department;
+Database changed
+mysql> DELIMITER //
+mysql>  CREATE FUNCTION CUSTOMER(CRE_LIM INT)
+    ->     RETURNS VARCHAR(20)
+    ->      DETERMINISTIC
+    ->      BEGIN
+    ->        DECLARE CUSTOMER_LEVEL VARCHAR(20);
+    ->        SET CUSTOMER_LEVEL='';
+    ->      IF CRE_LIM >50000 THEN
+    ->        SET CUSTOMER_LEVEL='PLATINUM';
+    ->      ELSEIF CRE_LIM <=50000 AND CRE_LIM>=10000 THEN
+    ->        SET CUSTOMER_LEVEL='GOLD';
+    ->      ELSEIF CRE_LIM < 10000 THEN
+    ->       SET CUSTOMER_LEVEL='SILVER';
+    ->      END IF;
+    ->     RETURN CUSTOMER_LEVEL;
+    ->     END //
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> SELECT CUSTOMER(40000);
+    -> //
++-----------------+
+| CUSTOMER(40000) |
++-----------------+
+| GOLD            |
++-----------------+
+1 row in set (0.03 sec)
+
+mysql> SELECT CUSTOMER(550000);
+    ->     -> //
++------------------+
+| CUSTOMER(550000) |
++------------------+
+| PLATINUM         |
++------------------+
+1 row in set (0.00 sec)
+
+
+
+
+
+2.
+
+
+mysql> DELIMITER $$
+mysql>  CREATE PROCEDURE find_fact(IN n INT)
+    ->      BEGIN
+    ->      SET @@GLOBAL.max_sp_recursion_depth =255;
+    ->      SET @@session.max_sp_recursion_depth=255;
+    ->      CALL factorial(n,@fact);
+    ->      SELECT @fact;
+    ->      END
+    ->      $$
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> DELIMITER $$
+mysql>  CREATE PROCEDURE factorial(IN n INT,OUT fact INT)
+    ->    BEGIN
+    ->     IF n=1 THEN
+    ->     SET fact:=1;
+    ->     ELSE
+    ->      CALL factorial(n-1,fact);
+    ->       SET fact:=n* fact;
+    ->      END IF;
+    ->      END
+    ->     $$
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> call find_fact(5);
+    -> $$
++-------+
+| @fact |
++-------+
+|   120 |
++-------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> call find_fact(7);
+    -> $$
++-------+
+| @fact |
++-------+
+|  5040 |
++-------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
