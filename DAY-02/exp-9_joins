@@ -1,0 +1,117 @@
+mysql> SELECT*FROM FACULTY;
++------------+--------------+--------+------------+------------+-----------+---------+
+| FACULTY_NO | FACULTY_NAME | GENDER | DOB        | DOJ        | MOBILE_NO | DEPT_NO |
++------------+--------------+--------+------------+------------+-----------+---------+
+|       2001 | venuthna     | F      | 2002-02-15 | 2022-02-14 |    784748 |       2 |
+|       2002 | vikas        | M      | 2002-02-15 | 2022-02-15 |    437848 |       2 |
+|       2003 | kalai        | f      | 1967-02-15 | 2020-06-21 |    651234 |       3 |
+|       2004 | ganesh       | M      | 1975-02-15 | 2021-02-01 |    434748 |       3 |
+|       2005 | sowmiya      | F      | 1967-02-23 | 2021-03-15 |    434768 |       4 |
+|       2006 | nambi        | M      | 1952-02-23 | 2002-03-15 |    434128 |       4 |
++------------+--------------+--------+------------+------------+-----------+---------+
+6 rows in set (0.00 sec)
+
+
+
+mysql> select*from department;
++---------+--------------+-----------+
+| DEPT_NO | DEPT_NAME    | DEPT_HEAD |
++---------+--------------+-----------+
+| 1       | COMPUTER     | ous       |
+| 2       | AI           | dang      |
+| 3       | ASTROPHYSICS | love      |
+| 4       | COMPUTER_DEF | sita      |
++---------+--------------+-----------+
+4 rows in set (0.00 sec)
+
+
+mysql> SELECT DEPARTMENT.DEPT_NO, DEPARTMENT.DEPT_NAME, FACULTY.FACULTY_NO, FACULTY.FACULTY_NAME
+    ->     FROM FACULTY JOIN DEPARTMENT
+    ->     ON FACULTY.DEPT_NO = DEPARTMENT.DEPT_NO
+    ->     ORDER BY DEPT_NO;
++---------+--------------+------------+--------------+
+| DEPT_NO | DEPT_NAME    | FACULTY_NO | FACULTY_NAME |
++---------+--------------+------------+--------------+
+| 2       | AI           |       2001 | venuthna     |
+| 2       | AI           |       2002 | vikas        |
+| 3       | ASTROPHYSICS |       2003 | kalai        |
+| 3       | ASTROPHYSICS |       2004 | ganesh       |
+| 4       | COMPUTER_DEF |       2005 | sowmiya      |
+| 4       | COMPUTER_DEF |       2006 | nambi        |
++---------+--------------+------------+--------------+
+
+
+2.
+
+
+mysql> select*from assessment;
++-------------+--------+-----------+-------+------------+-------------+
+| REGISTER_NO | NAME   | COURSE_NO | MARKS | FACULTY_ID | ASSESSMENTS |
++-------------+--------+-----------+-------+------------+-------------+
+|   192011274 | VIKAS  | 01        |    90 | 2001       |           1 |
+|   192011274 | VIKAS  | 02        |    90 | 2002       |           2 |
+|   192011274 | VIKAS  | 03        |    70 | 2002       |           1 |
+|   192011273 | VENU   | 05        |    79 | 2001       |           1 |
+|   192011272 | ESWAR  | 03        |    80 | 2002       |           2 |
+|   192011090 | HARISH | 01        |    98 | 2001       |           2 |
+|   192011272 | ESWAR  | 03        |     0 | 2002       |           2 |
+|   192011090 | HARISH | 01        |     0 | 2003       |           2 |
++-------------+--------+-----------+-------+------------+-------------+
+8 rows in set (0.00 sec)
+
+mysql> select*from cour;
++-----------+--------------+--------+---------+--------+-------------+
+| course_no | course_desc  | sem_no | hall_no | fal_no | course_type |
++-----------+--------------+--------+---------+--------+-------------+
+| 01        | COMPUTER_SCI | 1      | 004     | 2001   | program     |
+| 02        | AI           | 3      | NULL    | 2002   | program     |
+| 03        | ENGLISH      | 1      | NULL    | 2005   | statis      |
+| 04        | ETHICS       | 2      | NULL    | 2004   | statis      |
+| 05        | DATA_STRUCT  | 6      | 044     | 2003   | program     |
++-----------+--------------+--------+---------+--------+-------------+
+5 rows in set (0.03 sec)
+
+mysql> SELECT ASSESSMENT.NAME, ASSESSMENT.REGISTER_NO ,COUR.COURSE_NO, ASSESSMENT.MARKS FROM ASSESSMENT JOIN COUR ON ASSESSMENT.COURSE_NO = COUR.COURSE_NO WHERE ASSESSMENT.MARKS = 0 ;
++--------+-------------+-----------+-------+
+| NAME   | REGISTER_NO | COURSE_NO | MARKS |
++--------+-------------+-----------+-------+
+| ESWAR  |   192011272 | 03        |     0 |
+| HARISH |   192011090 | 01        |     0 |
++--------+-------------+-----------+-------+
+2 rows in set (0.00 sec)
+
+
+3.
+
+mysql> select*from department;
++---------+--------------+-----------+
+| DEPT_NO | DEPT_NAME    | DEPT_HEAD |
++---------+--------------+-----------+
+| 1       | COMPUTER     | ous       |
+| 2       | AI           | dang      |
+| 3       | ASTROPHYSICS | love      |
+| 4       | COMPUTER_DEF | sita      |
++---------+--------------+-----------+
+4 rows in set (0.00 sec)
+
+mysql> select*from faculty;
++------------+--------------+--------+------------+------------+-----------+---------+
+| FACULTY_NO | FACULTY_NAME | GENDER | DOB        | DOJ        | MOBILE_NO | DEPT_NO |
++------------+--------------+--------+------------+------------+-----------+---------+
+|       2001 | venuthna     | F      | 2002-02-15 | 2022-02-14 |    784748 |       2 |
+|       2002 | vikas        | M      | 2002-02-15 | 2022-02-15 |    437848 |       2 |
+|       2003 | kalai        | f      | 1967-02-15 | 2020-06-21 |    651234 |       3 |
+|       2004 | ganesh       | M      | 1975-02-15 | 2021-02-01 |    434748 |       3 |
+|       2005 | sowmiya      | F      | 1967-02-23 | 2021-03-15 |    434768 |       4 |
+|       2006 | nambi        | M      | 1952-02-23 | 2002-03-15 |    434128 |       4 |
+|       2006 | kamal        | m      | 1989-08-19 | 2014-09-12 |    651294 |       2 |
++------------+--------------+--------+------------+------------+-----------+---------+
+7 rows in set (0.00 sec)
+
+mysql> SELECT DEPARTMENT.DEPT_NO, DEPARTMENT.DEPT_NAME, FACULTY.FACULTY_NAME FROM DEPARTMENT JOIN FACULTY ON DEPARTMENT.DEPT_NO = FACULTY.DEPT_NO WHERE FACULTY.FACULTY_NAME = 'KAMAL';
++---------+-----------+--------------+
+| DEPT_NO | DEPT_NAME | FACULTY_NAME |
++---------+-----------+--------------+
+| 2       | AI        | kamal        |
++---------+-----------+--------------+
+1 row in set (0.00 sec)
