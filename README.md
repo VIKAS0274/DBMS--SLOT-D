@@ -315,23 +315,22 @@
     <h2 id = "exp19"> 
   ## EXPERIMENT - 19
   ### DATABASE CONNECTIVITY using PHP and MYSQL 
-  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/EXP-19_PHP
   #### OUTPUT
       1.<br/>
-      ![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194362002-348b75a4-6db1-4623-bcd2-9acbc95c36b9.png) <br/>
-
+      ![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194365084-693948ae-f227-4be4-b313-c05602486b66.png)<br/>
       2.<br/>
       <img width="796" alt="48(19)" src="https://user-images.githubusercontent.com/113232410/194362051-226d8d56-e494-4b74-8059-7be49dcd1a0b.png"><br/>
 
       
 
  <h2 id = "exp20"> 
-  ## EXPERIMENT - 20
-  ### JAVA DATABASE CONNECTIVITY 
-  ### FILE LINK :
+  ##  EXPERIMENT - 20
+  ###  JAVA DATABASE CONNECTIVITY 
+  ###  FILE LINK :
   #### OUTPUT
    
    1.<br/>
-   ![Screenshot (1)](https://user-images.githubusercontent.com/113232410/194362462-4dab8180-5e72-4090-87bf-d6fee5829fa6.png)<br/>
+   ![Screenshot (1)](https://user-images.githubusercontent.com/113232410/194365177-8240977d-ab20-46a7-836a-648688d0b386.png)<br/>
    2.<br/>
    <img width="427" alt="47(18)" src="https://user-images.githubusercontent.com/113232410/194362751-3cc274b7-621d-4123-8710-9914d0677fab.png"><br/>
