@@ -35,7 +35,7 @@
 
 
 
-
+<h2 id = "exp1"> 
 ## EXPERIMENT - 01 
 
 ### DDL Commands 
@@ -53,6 +53,8 @@
 5.<br/>
 ![exp1](https://user-images.githubusercontent.com/113232410/193780242-5349ac74-9a2d-46af-9476-05dd913d41fa.png)<br/>
   
+  
+  <h2 id = "exp2">
 ## EXPERIMENT -02
 ### DDL Commands
 ### FILE LINK :
