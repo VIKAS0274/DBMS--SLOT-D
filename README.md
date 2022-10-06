@@ -19,12 +19,12 @@
 |10.		|[VIEW, INDEX, SEQUENCE ](#exp10)<br/>	|  04-10-2022		|
 |11.		|[Simple programming  exercises using CASE, IF, ITERATE, LEAVE, LOOP ](#exp11)<br/>	| 04-10-2022			|
 |12.		|[Simple programming  exercises using REPEAT, WHILE](#exp12)<br/>	|  04-10-2022	    |
-|13.		|[TCL Commands – COMMIT, ROLLBACK, SAVEPOINT ](#exp13)<br/>	|  		|
-|14.		|[DCL Commands – GRANT, REVOKE ](#exp14)<br/>	|    		|
-|15.		|[High Level Programming Extensions-Procedures ](#exp15)<br/>	|   	|
-|16.		|[High Level Programming Extensions-Function ](#exp16)<br/>	|   		|
-|17.		|[High Level Programming Extensions-Cursors ](#exp17)<br/>	|    		|
-|18.		|[High Level Programming Extensions-Triggers](#exp18)<br/>	|  		|
+|13.		|[TCL Commands – COMMIT, ROLLBACK, SAVEPOINT ](#exp13)<br/>	| 06-10-2022 		|
+|14.		|[DCL Commands – GRANT, REVOKE ](#exp14)<br/>	|     06-10-2022 				|
+|15.		|[High Level Programming Extensions-Procedures ](#exp15)<br/>	|   06-10-2022 		 	|
+|16.		|[High Level Programming Extensions-Function ](#exp16)<br/>	|    06-10-2022 				|
+|17.		|[High Level Programming Extensions-Cursors ](#exp17)<br/>	|     06-10-2022 				|
+|18.		|[High Level Programming Extensions-Triggers](#exp18)<br/>	|  06-10-2022 		 		|
 |19.		|[Experiment 19 :](#exp18)<br/>	|    	|
 |20.		|[JAVA DATABASE CONNECTIVITY ](#exp20)<br/>	|    	|
 |21.		|[CASE SCENARIO : Basic SQL Queries Implementation for HRM database](#exp21)<br/>	|     	|
@@ -204,3 +204,54 @@
   1.<img width="503" alt="35(12)" src="https://user-images.githubusercontent.com/113232410/194121568-307416a4-62a6-4e47-98b2-d1aec9b8dc60.png">
 2.<img width="466" alt="36" src="https://user-images.githubusercontent.com/113232410/194121613-88b18eee-a701-4b0e-b067-4549241a3108.png">
 
+
+
+## EXPERIMENT - 13
+  ### TCL
+  ### FILE LINK :
+  #### OUTPUT
+  
+  1.<img width="394" alt="37(13)" src="https://user-images.githubusercontent.com/113232410/194229708-a79f2d9f-5391-4164-97b6-4444f8fb480a.png">
+2.<img width="439" alt="38" src="https://user-images.githubusercontent.com/113232410/194229935-4f9b3622-078b-4472-b3d5-1f0f11ee5b33.png">
+
+3.<img width="422" alt="39" src="https://user-images.githubusercontent.com/113232410/194229811-2dbb9fbd-98af-496e-91ce-52253c4306a7.png">
+
+
+## EXPERIMENT - 14
+  ### DCL
+  ### FILE LINK :
+  #### OUTPUT
+  
+  1.<img width="307" alt="40(14)" src="https://user-images.githubusercontent.com/113232410/194229897-81353e6a-896f-410e-97d9-f0a834cdb8aa.png">
+
+
+## EXPERIMENT - 15
+  ### PROCEDURE
+  ### FILE LINK :
+  #### OUTPUT
+  
+  1.<img width="443" alt="41(15)" src="https://user-images.githubusercontent.com/113232410/194230112-d54233f7-03da-457a-a274-303f08f65ae0.png">
+2.<img width="171" alt="42" src="https://user-images.githubusercontent.com/113232410/194230147-87156ab2-9735-400d-b7db-5a11b34c4263.png">
+
+
+
+## EXPERIMENT - 16
+  ### FUNCTION
+  ### FILE LINK :
+  #### OUTPUT
+  
+  
+  1.<img width="255" alt="43(16)" src="https://user-images.githubusercontent.com/113232410/194230253-5254977c-500e-4d4b-884b-2b7788fe99b1.png">
+
+  2.<img width="277" alt="44" src="https://user-images.githubusercontent.com/113232410/194230272-a882eaef-1796-487d-a14b-1ed5d2a0a448.png">
+
+  
+  
+  ## EXPERIMENT - 17
+  ### CURSORS
+  ### FILE LINK :
+  #### OUTPUT
+  
+  1.<img width="374" alt="45(17)" src="https://user-images.githubusercontent.com/113232410/194230411-df223ab7-d6dd-4992-9240-bd43be7a686e.png">
+
+  
