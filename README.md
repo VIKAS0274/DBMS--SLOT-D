@@ -121,7 +121,7 @@
 
 ## EXPERIMENT - 06
 ### SELECT with various clause
-### FILE NAME :
+### FILE NAME :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY01/exp-6%20.BETWEEN%2C%20IN%2C
 #### OUTPUT :
 
 1.<br/>
@@ -144,114 +144,148 @@
 
  ## EXPERIMENT - 07
   ### clause
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/EXP-7_Query
   #### OUTPUT :
   
-  1.<img width="641" alt="21(7)" src="https://user-images.githubusercontent.com/113232410/194119729-0d88d7dd-ff8c-488e-8106-a705f1a71596.png">
-  2.<img width="655" alt="22" src="https://user-images.githubusercontent.com/113232410/194119652-32687d5a-f6e8-4bdb-9c15-b4ad67489ebc.png">
-  3.<img width="644" alt="23" src="https://user-images.githubusercontent.com/113232410/194119943-015fd131-02d2-4a48-b87f-d5ac5095596d.png">
-  4.<img width="660" alt="24" src="https://user-images.githubusercontent.com/113232410/194119913-56b614f3-48eb-482d-bec7-42369de16778.png">
+  1.<br/>
+  <img width="641" alt="21(7)" src="https://user-images.githubusercontent.com/113232410/194119729-0d88d7dd-ff8c-488e-8106-a705f1a71596.png"><br/>
+  2.<br/>
+  <img width="655" alt="22" src="https://user-images.githubusercontent.com/113232410/194119652-32687d5a-f6e8-4bdb-9c15-b4ad67489ebc.png"><br/>
+  3.<br/>
+  <img width="644" alt="23" src="https://user-images.githubusercontent.com/113232410/194119943-015fd131-02d2-4a48-b87f-d5ac5095596d.png"><br/>
+  4.<br/>
+  <img width="660" alt="24" src="https://user-images.githubusercontent.com/113232410/194119913-56b614f3-48eb-482d-bec7-42369de16778.png"><br/>
   
    ## EXPERIMENT - 08
   ### Query 
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-8_query
   #### OUTPUT :
   
-  1.<img width="357" alt="25(8)" src="https://user-images.githubusercontent.com/113232410/194120221-b16e29d2-bddf-40c3-806c-313c0b5b7c9b.png">
-  2.<img width="356" alt="26" src="https://user-images.githubusercontent.com/113232410/194120334-2eb86ec8-7f9d-4324-9b60-9fa347d757b7.png">
-  3.<img width="346" alt="27" src="https://user-images.githubusercontent.com/113232410/194120410-0ba4b5c0-f6d1-4df7-9e62-2f97e66a906e.png">
-  4.<img width="353" alt="28" src="https://user-images.githubusercontent.com/113232410/194120468-18477a42-2a92-4ee7-b5a6-47d64072b660.png">
+  1.<br/>
+  <img width="357" alt="25(8)" src="https://user-images.githubusercontent.com/113232410/194120221-b16e29d2-bddf-40c3-806c-313c0b5b7c9b.png"><br/>
+  2.<br/>
+  <img width="356" alt="26" src="https://user-images.githubusercontent.com/113232410/194120334-2eb86ec8-7f9d-4324-9b60-9fa347d757b7.png"><br/>
+  3.<br/>
+  <img width="346" alt="27" src="https://user-images.githubusercontent.com/113232410/194120410-0ba4b5c0-f6d1-4df7-9e62-2f97e66a906e.png"><br/>
+  4.<br/>
+  <img width="353" alt="28" src="https://user-images.githubusercontent.com/113232410/194120468-18477a42-2a92-4ee7-b5a6-47d64072b660.png"><br/>
 
   
  ## EXPERIMENT - 09
   ### Joins 
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-9_joins
   #### OUTPUT :
   
   
-  1.<img width="457" alt="29(9)" src="https://user-images.githubusercontent.com/113232410/194120693-3f24b7c0-7e89-4046-bd81-3a3b3245498c.png">
-  2.<img width="454" alt="30" src="https://user-images.githubusercontent.com/113232410/194120778-2da19834-8fd3-407b-9ec4-df422044c16a.png">
-3.<img width="443" alt="31" src="https://user-images.githubusercontent.com/113232410/194120826-f923715d-a3f6-4780-8f3f-62ee042ffe19.png">
+  1.<br/>
+  <img width="457" alt="29(9)" src="https://user-images.githubusercontent.com/113232410/194120693-3f24b7c0-7e89-4046-bd81-3a3b3245498c.png"><br/>
+  2.<br/>
+  <img width="454" alt="30" src="https://user-images.githubusercontent.com/113232410/194120778-2da19834-8fd3-407b-9ec4-df422044c16a.png"><br/>
+3.<br/>
+<img width="443" alt="31" src="https://user-images.githubusercontent.com/113232410/194120826-f923715d-a3f6-4780-8f3f-62ee042ffe19.png"><br/>
 
 
 
 ## EXPERIMENT - 10
   ### VIEW, INDEX, SEQUENCE  
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-10__view
   #### OUTPUT :
   
   
-  1.<img width="350" alt="32(10)" src="https://user-images.githubusercontent.com/113232410/194121026-46d37a92-9915-4a79-a8c3-011f33bffcb5.png">
+  1.<br/>
+  <img width="350" alt="32(10)" src="https://user-images.githubusercontent.com/113232410/194121026-46d37a92-9915-4a79-a8c3-011f33bffcb5.png"><br/>
 
 
 
 ## EXPERIMENT - 11
   ### LOOP 
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-11_while
   #### OUTPUT 
   
-  1.<img width="437" alt="33(11);" src="https://user-images.githubusercontent.com/113232410/194121377-bac71893-cb69-44bd-962d-8faaeb61e6b8.png">
-2.<img width="408" alt="34" src="https://user-images.githubusercontent.com/113232410/194121438-23c2fce3-aabd-4b05-b6a4-71c79f15a890.png">
+  1.<br/>
+  <img width="437" alt="33(11);" src="https://user-images.githubusercontent.com/113232410/194121377-bac71893-cb69-44bd-962d-8faaeb61e6b8.png"><br/>
+2.<br/>
+<img width="408" alt="34" src="https://user-images.githubusercontent.com/113232410/194121438-23c2fce3-aabd-4b05-b6a4-71c79f15a890.png"><br/>
 
 
 
 
 ## EXPERIMENT - 12
   ### WHILE
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-02/exp-12_loop
   #### OUTPUT 
   
-  1.<img width="503" alt="35(12)" src="https://user-images.githubusercontent.com/113232410/194121568-307416a4-62a6-4e47-98b2-d1aec9b8dc60.png">
-2.<img width="466" alt="36" src="https://user-images.githubusercontent.com/113232410/194121613-88b18eee-a701-4b0e-b067-4549241a3108.png">
+  1.<br/>
+  <img width="503" alt="35(12)" src="https://user-images.githubusercontent.com/113232410/194121568-307416a4-62a6-4e47-98b2-d1aec9b8dc60.png"><br/>
+2.<br/>
+<img width="466" alt="36" src="https://user-images.githubusercontent.com/113232410/194121613-88b18eee-a701-4b0e-b067-4549241a3108.png"><br/>
 
 
 
 ## EXPERIMENT - 13
   ### TCL
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-13_TCL
   #### OUTPUT
   
-  1.<img width="394" alt="37(13)" src="https://user-images.githubusercontent.com/113232410/194229708-a79f2d9f-5391-4164-97b6-4444f8fb480a.png">
-2.<img width="439" alt="38" src="https://user-images.githubusercontent.com/113232410/194229935-4f9b3622-078b-4472-b3d5-1f0f11ee5b33.png">
+  1.<br/>
+  <img width="394" alt="37(13)" src="https://user-images.githubusercontent.com/113232410/194229708-a79f2d9f-5391-4164-97b6-4444f8fb480a.png"><br/>
+2.<br/>
+<img width="439" alt="38" src="https://user-images.githubusercontent.com/113232410/194229935-4f9b3622-078b-4472-b3d5-1f0f11ee5b33.png"><br/>
 
-3.<img width="422" alt="39" src="https://user-images.githubusercontent.com/113232410/194229811-2dbb9fbd-98af-496e-91ce-52253c4306a7.png">
+3.<br/>
+<img width="422" alt="39" src="https://user-images.githubusercontent.com/113232410/194229811-2dbb9fbd-98af-496e-91ce-52253c4306a7.png"><br/>
 
 
 ## EXPERIMENT - 14
   ### DCL
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/exp-14_dcl
   #### OUTPUT
   
-  1.<img width="307" alt="40(14)" src="https://user-images.githubusercontent.com/113232410/194229897-81353e6a-896f-410e-97d9-f0a834cdb8aa.png">
+  1.<br/>
+  <img width="307" alt="40(14)" src="https://user-images.githubusercontent.com/113232410/194229897-81353e6a-896f-410e-97d9-f0a834cdb8aa.png"><br/>
 
 
 ## EXPERIMENT - 15
   ### PROCEDURE
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-15_procedure
   #### OUTPUT
   
-  1.<img width="443" alt="41(15)" src="https://user-images.githubusercontent.com/113232410/194230112-d54233f7-03da-457a-a274-303f08f65ae0.png">
-2.<img width="171" alt="42" src="https://user-images.githubusercontent.com/113232410/194230147-87156ab2-9735-400d-b7db-5a11b34c4263.png">
+  1.<br/>
+  <img width="443" alt="41(15)" src="https://user-images.githubusercontent.com/113232410/194230112-d54233f7-03da-457a-a274-303f08f65ae0.png"><br/>
+2.<br/>
+<img width="171" alt="42" src="https://user-images.githubusercontent.com/113232410/194230147-87156ab2-9735-400d-b7db-5a11b34c4263.png"><br/>
 
 
 
 ## EXPERIMENT - 16
   ### FUNCTION
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-16_function
   #### OUTPUT
   
   
-  1.<img width="255" alt="43(16)" src="https://user-images.githubusercontent.com/113232410/194230253-5254977c-500e-4d4b-884b-2b7788fe99b1.png">
+  1.<br/>
+  <img width="255" alt="43(16)" src="https://user-images.githubusercontent.com/113232410/194230253-5254977c-500e-4d4b-884b-2b7788fe99b1.png"><br/>
 
-  2.<img width="277" alt="44" src="https://user-images.githubusercontent.com/113232410/194230272-a882eaef-1796-487d-a14b-1ed5d2a0a448.png">
+  2.<br/>
+  <img width="277" alt="44" src="https://user-images.githubusercontent.com/113232410/194230272-a882eaef-1796-487d-a14b-1ed5d2a0a448.png"><br/>
 
   
   
   ## EXPERIMENT - 17
   ### CURSORS
-  ### FILE LINK :
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-17_CURSORS.sql
   #### OUTPUT
   
-  1.<img width="374" alt="45(17)" src="https://user-images.githubusercontent.com/113232410/194230411-df223ab7-d6dd-4992-9240-bd43be7a686e.png">
+  1.<br/>
+  <img width="374" alt="45(17)" src="https://user-images.githubusercontent.com/113232410/194230411-df223ab7-d6dd-4992-9240-bd43be7a686e.png"><br/>
 
   
+  
+   ## EXPERIMENT - 18
+  ### TRIGGER
+  ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
+  #### OUTPUT
+  
+  1.<br/>
+  <img width="469" alt="46" src="https://user-images.githubusercontent.com/113232410/194248887-083f4d4d-e54d-4458-8043-82e8ec2940c0.png"><br/>
+
