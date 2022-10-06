@@ -25,7 +25,7 @@
 |16.		|[High Level Programming Extensions-Function ](#exp16)<br/>	|    06-10-2022 				|
 |17.		|[High Level Programming Extensions-Cursors ](#exp17)<br/>	|     06-10-2022 				|
 |18.		|[High Level Programming Extensions-Triggers](#exp18)<br/>	|  06-10-2022 		 		|
-|19.		|[Experiment 19 :](#exp18)<br/>	|    	|
+|19.		|[DATABASE CONNECTIVITY using PHP and MYSQL ](#exp18)<br/>	|    	|
 |20.		|[JAVA DATABASE CONNECTIVITY ](#exp20)<br/>	|    	|
 |21.		|[CASE SCENARIO : Basic SQL Queries Implementation for HRM database](#exp21)<br/>	|     	|
 |22.		|[CASE SCENARIO 2 : Basic SQL Queries Implementation for HRM database](#exp22)<br/>	|        	|
@@ -313,7 +313,7 @@
 
     
     <h2 id = "exp19"> 
-       ## EXPERIMENT - 19
+  ## EXPERIMENT - 19
   ### DATABASE CONNECTIVITY using PHP and MYSQL 
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
   #### OUTPUT
@@ -326,7 +326,7 @@
       
 
  <h2 id = "exp20"> 
-       ## EXPERIMENT - 20
+  ## EXPERIMENT - 20
   ### JAVA DATABASE CONNECTIVITY 
   ### FILE LINK :
   #### OUTPUT
