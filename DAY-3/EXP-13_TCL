@@ -1,1 +1,87 @@
-DZCZXC
+mysql> use student1;
+Database changed
+mysql> select*from student;
++-------------+---------+--------+------------+-----------+------------+-----------+
+| REGISTER_NO | NAME    | GENDER | DOB        | MOBILE_NO | CITY       | course_no |
++-------------+---------+--------+------------+-----------+------------+-----------+
+|   191711342 | viki    | M      | 1998-01-22 |     79764 | CHENNAI    | c001      |
+|   192011002 | vikas   | M      | 2002-02-23 |     79845 | CHENNAI    | c002      |
+|   192011003 | sekar   | M      | 2003-06-15 |     68768 | CHENNAI    | c003      |
+|   192011004 | vishnu  | M      | 2002-08-23 |     97894 | SAILAYUR   | c001      |
+|   192011008 | aishu   | F      | 2002-02-15 |     78487 | MOTIHARI   | c001      |
+|   192011010 | prakesh | M      | 2000-01-23 |     79322 | JUMBOBUMBO | c003      |
++-------------+---------+--------+------------+-----------+------------+-----------+
+6 rows in set (0.04 sec)
+
+mysql> select @@autocommit;
++--------------+
+| @@autocommit |
++--------------+
+|            1 |
++--------------+
+1 row in set (0.03 sec)
+
+
+mysql> insert into student values(192110577,'thasleem','f','2004-06-13',78432,'ap','c006');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> select*from student;
++-------------+----------+--------+------------+-----------+------------+-----------+
+| REGISTER_NO | NAME     | GENDER | DOB        | MOBILE_NO | CITY       | course_no |
++-------------+----------+--------+------------+-----------+------------+-----------+
+|   191711342 | viki     | M      | 1998-01-22 |     79764 | CHENNAI    | c001      |
+|   192011002 | vikas    | M      | 2002-02-23 |     79845 | CHENNAI    | c002      |
+|   192011003 | sekar    | M      | 2003-06-15 |     68768 | CHENNAI    | c003      |
+|   192011004 | vishnu   | M      | 2002-08-23 |     97894 | SAILAYUR   | c001      |
+|   192011008 | aishu    | F      | 2002-02-15 |     78487 | MOTIHARI   | c001      |
+|   192011010 | prakesh  | M      | 2000-01-23 |     79322 | JUMBOBUMBO | c003      |
+|   192110577 | thasleem | f      | 2004-06-13 |     78432 | ap         | c006      |
++-------------+----------+--------+------------+-----------+------------+-----------+
+7 rows in set (0.00 sec)
+
+
+mysql> set @@autocommit=0;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> select @@autocommit;
++--------------+
+| @@autocommit |
++--------------+
+|            0 |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> delete from student where city='ap';
+Query OK, 1 row affected (0.04 sec)
+
+mysql> select*from student;
++-------------+---------+--------+------------+-----------+------------+-----------+
+| REGISTER_NO | NAME    | GENDER | DOB        | MOBILE_NO | CITY       | course_no |
++-------------+---------+--------+------------+-----------+------------+-----------+
+|   191711342 | viki    | M      | 1998-01-22 |     79764 | CHENNAI    | c001      |
+|   192011002 | vikas   | M      | 2002-02-23 |     79845 | CHENNAI    | c002      |
+|   192011003 | sekar   | M      | 2003-06-15 |     68768 | CHENNAI    | c003      |
+|   192011004 | vishnu  | M      | 2002-08-23 |     97894 | SAILAYUR   | c001      |
+|   192011008 | aishu   | F      | 2002-02-15 |     78487 | MOTIHARI   | c001      |
+|   192011010 | prakesh | M      | 2000-01-23 |     79322 | JUMBOBUMBO | c003      |
++-------------+---------+--------+------------+-----------+------------+-----------+
+6 rows in set (0.00 sec)
+
+
+mysql>  rollback;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> select*from student;
++-------------+----------+--------+------------+-----------+------------+-----------+
+| REGISTER_NO | NAME     | GENDER | DOB        | MOBILE_NO | CITY       | course_no |
++-------------+----------+--------+------------+-----------+------------+-----------+
+|   191711342 | viki     | M      | 1998-01-22 |     79764 | CHENNAI    | c001      |
+|   192011002 | vikas    | M      | 2002-02-23 |     79845 | CHENNAI    | c002      |
+|   192011003 | sekar    | M      | 2003-06-15 |     68768 | CHENNAI    | c003      |
+|   192011004 | vishnu   | M      | 2002-08-23 |     97894 | SAILAYUR   | c001      |
+|   192011008 | aishu    | F      | 2002-02-15 |     78487 | MOTIHARI   | c001      |
+|   192011010 | prakesh  | M      | 2000-01-23 |     79322 | JUMBOBUMBO | c003      |
+|   192110577 | thasleem | f      | 2004-06-13 |     78432 | ap         | c006      |
++-------------+----------+--------+------------+-----------+------------+-----------+
+7 rows in set (0.00 sec)
+
