@@ -1,0 +1,38 @@
+mysql> use student;
+Database changed
+mysql> CREATE VIEW STD_VIEW AS SELECT REGISTER_NO, NAME, DOB FROM STU;
+ERROR 1054 (42S22): Unknown column 'REGISTER_NO' in 'field list'
+mysql>     SELECT * FROM STU;
++--------+----------+------+--------+------------+------------+-----------+
+| Rollno | Name     | Dept | Gender | DOB        | city       | mobile_no |
++--------+----------+------+--------+------------+------------+-----------+
+|    267 | somaraj  | cse  | M      | 2002-10-08 | tanjavur   |   9951234 |
+|    268 | adapoma  | cse  | M      | 2001-10-02 | kanipakam  |   9751234 |
+|    269 | sushma   | cse  | f      | 2001-09-09 | pondichery |    975474 |
+|    270 | puma     | cse  | M      | 2003-10-06 | chitoor    |   9827944 |
+|    271 | sai      | cse  | M      | 2003-10-30 | chittor    |  98262944 |
+|    272 | eswar    | cse  | M      | 2002-09-14 | vellore    |  98262324 |
+|    273 | venuthna | cse  | F      | 2003-06-26 | chennai    |  63242324 |
+|    274 | vikas    | cse  | m      | 2002-01-16 | cuddalore  | 637435711 |
++--------+----------+------+--------+------------+------------+-----------+
+8 rows in set (0.02 sec)
+
+mysql> use student;
+Database changed
+mysql> CREATE VIEW STD_VIEW AS SELECT ROLLNO, NAME, DOB FROM STU;
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> SELECT * FROM STD_VIEW;
++--------+----------+------------+
+| ROLLNO | NAME     | DOB        |
++--------+----------+------------+
+|    267 | somaraj  | 2002-10-08 |
+|    268 | adapoma  | 2001-10-02 |
+|    269 | sushma   | 2001-09-09 |
+|    270 | puma     | 2003-10-06 |
+|    271 | sai      | 2003-10-30 |
+|    272 | eswar    | 2002-09-14 |
+|    273 | venuthna | 2003-06-26 |
+|    274 | vikas    | 2002-01-16 |
++--------+----------+------------+
+8 rows in set (0.04 sec)
