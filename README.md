@@ -25,8 +25,8 @@
 |16.		|[High Level Programming Extensions-Function ](#exp16)<br/>	|    06-10-2022 				|
 |17.		|[High Level Programming Extensions-Cursors ](#exp17)<br/>	|     06-10-2022 				|
 |18.		|[High Level Programming Extensions-Triggers](#exp18)<br/>	|  06-10-2022 		 		|
-|19.		|[DATABASE CONNECTIVITY using PHP and MYSQL ](#exp18)<br/>	|    	|
-|20.		|[JAVA DATABASE CONNECTIVITY ](#exp20)<br/>	|    	|
+|19.		|[DATABASE CONNECTIVITY using PHP and MYSQL ](#exp18)<br/>	|07-10-2022    	|
+|20.		|[JAVA DATABASE CONNECTIVITY ](#exp20)<br/>	| 07-10-2022   	|
 |21.		|[CASE SCENARIO : Basic SQL Queries Implementation for HRM database](#exp21)<br/>	|     	|
 |22.		|[CASE SCENARIO 2 : Basic SQL Queries Implementation for HRM database](#exp22)<br/>	|        	|
 |23.		|[CASE SCENARIO 3 : Case Scenario SQL Queries Implementation for General Hospital.](#exp23)<br/>	|     	|
@@ -312,22 +312,26 @@
   <img width="469" alt="46" src="https://user-images.githubusercontent.com/113232410/194248887-083f4d4d-e54d-4458-8043-82e8ec2940c0.png"><br/>
 
     
-    <h2 id = "exp19"> 
+   <h2 id = "exp19"> 
   ## EXPERIMENT - 19
   ### DATABASE CONNECTIVITY using PHP and MYSQL 
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/EXP-19_PHP
   #### OUTPUT
-      1.<br/>
-      ![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194365084-693948ae-f227-4be4-b313-c05602486b66.png)<br/>
-      2.<br/>
-      <img width="796" alt="48(19)" src="https://user-images.githubusercontent.com/113232410/194362051-226d8d56-e494-4b74-8059-7be49dcd1a0b.png"><br/>
-
+  
+   1.![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194365929-ead6e439-7f00-43ab-9b75-3feafa6f8335.png)
+   2. <img width="796" alt="48(19)" src="https://user-images.githubusercontent.com/113232410/194365987-d0d6625d-447a-45ba-abc4-fc5bd7be3d84.png">
+  
+     
       
 
  <h2 id = "exp20"> 
+   
   ##  EXPERIMENT - 20
+   
   ###  JAVA DATABASE CONNECTIVITY 
+   
   ###  FILE LINK :
+   
   #### OUTPUT
    
    1.<br/>
