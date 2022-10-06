@@ -1,0 +1,43 @@
+mysql> use student;
+Database changed
+mysql> desc stu;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| Rollno    | int         | NO   | PRI | NULL    |       |
+| Name      | varchar(20) | YES  |     | NULL    |       |
+| Dept      | varchar(4)  | YES  |     | NULL    |       |
+| Gender    | varchar(1)  | YES  |     | NULL    |       |
+| DOB       | date        | YES  |     | NULL    |       |
+| city      | varchar(20) | YES  |     | NULL    |       |
+| mobile_no | int         | NO   |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+7 rows in set (0.04 sec)
+
+mysql> create user vikas;
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> grant all on student to vikas;
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> show  grants for vikas;
++------------------------------------------------------------+
+| Grants for vikas@%                                         |
++------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `vikas`@`%`                          |
+| GRANT ALL PRIVILEGES ON `student`.`student` TO `vikas`@`%` |
++------------------------------------------------------------+
+2 rows in set (0.02 sec)
+
+mysql> revoke all on student from vikas;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> show  grants for vikas;
++-----------------------------------+
+| Grants for vikas@%                |
++-----------------------------------+
+| GRANT USAGE ON *.* TO `vikas`@`%` |
++-----------------------------------+
+1 row in set (0.00 sec)
+
+mysql> revoke all on student from
