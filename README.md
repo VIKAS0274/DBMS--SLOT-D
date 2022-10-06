@@ -303,9 +303,13 @@
 
   
   <h2 id = "exp18"> 
-   ## EXPERIMENT - 18
+    
+  ## EXPERIMENT - 18
+    
   ### TRIGGER
+    
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/DAY-3/EXP-18_TRIGGER
+    
   #### OUTPUT
   
   1.<br/>
@@ -314,8 +318,11 @@
     
    <h2 id = "exp19"> 
   ## EXPERIMENT - 19
+     
   ### DATABASE CONNECTIVITY using PHP and MYSQL 
+     
   ### FILE LINK :https://github.com/VIKAS0274/DBMS--SLOT-D/blob/main/EXP-19_PHP
+     
   #### OUTPUT
   
    1.![Screenshot (2)](https://user-images.githubusercontent.com/113232410/194365929-ead6e439-7f00-43ab-9b75-3feafa6f8335.png)
