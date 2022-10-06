@@ -1,0 +1,36 @@
+mysql> use student;
+Database changed
+mysql> CREATE TABLE EMPLOYEE_AUDIT(
+    ->  EMPLOYEE_ID INT,
+    ->     LASTNAME VARCHAR(15),
+    ->     CHANGEDAT DATETIME,
+    ->     ACTION VARCHAR(14)
+    ->     );
+Query OK, 0 rows affected (0.13 sec)
+
+mysql> DELIMITER //
+mysql> CREATE TRIGGER BEFORE_EMPLOYEE_UPDATE
+    -> BEFORE UPDATE ON EMPLOYEES
+    -> FOR EACH ROW
+    -> BEGIN
+    -> INSERT INTO EMPLOYEE_AUDIT
+    -> SET ACTION = 'UPDATE',
+    -> EMPLOYEE_ID = OLD.id,
+    -> LASTNAME = OLD.Name,
+    -> CHANGEDAT = NOW();
+    -> END; //
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> DELIMITER ;
+mysql> UPDATE EMPLOYEES
+    -> SET Name = 'michael' where id = 3;
+Query OK, 1 row affected (0.06 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM EMPLOYEE_AUDIT;
++-------------+------------+---------------------+--------+
+| EMPLOYEE_ID | LASTNAME   | CHANGEDAT           | ACTION |
++-------------+------------+---------------------+--------+
+|           3 | Tony Stark | 2022-10-06 13:14:33 | UPDATE |
++-------------+------------+---------------------+--------+
+1 row in set (0.04 sec)
