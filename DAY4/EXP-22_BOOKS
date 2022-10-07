@@ -1,0 +1,112 @@
+mysql> create table book_company(Book_no int(5),Book_name varchar(30),Author_name varchar(30),Cost int(4),Edition int(2));
+Query OK, 0 rows affected, 3 warnings (0.02 sec)
+mysql> insert into book_company values(100,"DBMS","Vikas",500,1);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into book_company values(101,"Python","Rosum",650,3);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into book_company values(102,"Java","Gosling",1400,4)
+    -> ;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into book_company values(103,"C","Ritchie",1200,5);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select*from book_company;
++---------+-----------+-------------+------+---------+
+| Book_no | Book_name | Author_name | Cost | Edition |
++---------+-----------+-------------+------+---------+
+|     100 | DBMS      | Vikas       |  500 |       1 |
+|     101 | Python    | Rosum       |  650 |       3 |
+|     102 | Java      | Gosling     | 1400 |       4 |
+|     103 | C         | Ritchie     | 1200 |       5 |
++---------+-----------+-------------+------+---------+
+4 rows in set (0.00 sec)
+mysql> update book_company set Author_name="Ted" where Book_no=100;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select*from book_company;
++---------+-----------+-------------+------+---------+
+| Book_no | Book_name | Author_name | Cost | Edition |
++---------+-----------+-------------+------+---------+
+|     100 | DBMS      | Ted         |  500 |       1 |
+|     101 | Python    | Rosum       |  650 |       3 |
+|     102 | Java      | Gosling     | 1400 |       4 |
+|     103 | C         | Ritchie     | 1200 |       5 |
++---------+-----------+-------------+------+---------+
+4 rows in set (0.00 sec)
+
+mysql> create table Authors(Author_id int(4),Author_name varchar(30),Research_area varchar(30));
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+mysql> insert into Authors values(200,"Newton","Physics");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into Authors values(201,"Gauss","Maths");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into Authors values(202,"VantHoff","Thermodynamics");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into Authors values(203,"De-broglie","Optics");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select*from Authors;
++-----------+-------------+----------------+
+| Author_id | Author_name | Research_area  |
++-----------+-------------+----------------+
+|       200 | Newton      | Physics        |
+|       201 | Gauss       | Maths          |
+|       202 | VantHoff    | Thermodynamics |
+|       203 | De-broglie  | Optics         |
++-----------+-------------+----------------+
+4 rows in set (0.00 sec)
+mysql> select Author_name from book_company where Book_name="Python";
++-------------+
+| Author_name |
++-------------+
+| Rosum       |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select Edition from book_company where Book_name="C";
++---------+
+| Edition |
++---------+
+|       5 |
++---------+
+1 row in set (0.00 sec)
+mysql> alter table book_company add Published_Year int(4);
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
+mysql> update book_comapny set Published_Year=1995 where Book_no=101;
+ERROR 1146 (42S02): Table 'sse.book_comapny' doesn't exist
+mysql> update book_company set Published_Year=1995 where Book_no=101;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update book_company set Published_Year=1992 where Book_no=102;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update book_company set Published_Year=1990 where Book_no=103;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> update book_company set Published_Year=1998 where Book_no=100;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select*from book_company;
++---------+-----------+-------------+------+---------+----------------+
+| Book_no | Book_name | Author_name | Cost | Edition | Published_Year |
++---------+-----------+-------------+------+---------+----------------+
+|     100 | DBMS      | Ted         |  500 |       1 |           1998 |
+|     102 | Java      | Gosling     | 1400 |       4 |           1992 |
+|     103 | C         | Ritchie     | 1200 |       5 |           1990 |
+|     101 | Python    | Rosum       |  650 |       3 |           1995 |
++---------+-----------+-------------+------+---------+----------------+
+4 rows in set (0.00 sec)
